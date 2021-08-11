@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+*{
+
+  
+  
+}
+body{
+    background: url(/img/school.jpg);
+}
+
+.tableSection{
+    display: inline-block;
+    background: rgba(114, 104, 211, 0.8);
+    float: right;
+    margin-top: 200px;
+    margin-right: 300px ;
+    padding: 250px;
+
+    
+}
+
+
+table, th, td {
+    border: 1px solid #f5f5f5;
+    color: #f5f5f5;
+    background-color: #1F1F1F;
+
+  }
+  
+  table {
+   width: 100%;
+  }
+#DoantionAmount{
+    width: 10%;
+}
+
+input[type=select], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 30%;
+    background-color: #1F1F1F;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: red;
+  }
+  
